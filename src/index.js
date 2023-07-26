@@ -24,7 +24,7 @@ const viewer = new Cesium.Viewer("cesiumContainer", {
 const solani = viewer.entities.add({
   polygon: {
     hierarchy: Cesium.Cartesian3.fromDegreesArray([
-        77.72,29.88, 77.72,30.30, 78.0,30.30, 78.0,29.88, 
+        77.72,29.88, 77.72,30.27, 78.0,30.27, 78.0,29.88, 
       ]),
         
     height: 0,
