@@ -12,9 +12,6 @@ Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzMDA1M
 //     url: Cesium.IonResource.fromAssetId(1),
 //   }),
 // });
-
-
-// Viewer
 const worldTerrain = Cesium.createWorldTerrain({
   requestWaterMask: true,
   requestVertexNormals: true,
@@ -53,9 +50,6 @@ viewer.scene.globe.enableLighting = false;
 const layer = viewer.imageryLayers.addImageryProvider(
   new Cesium.IonImageryProvider({ assetId: 2012824 })
 );
-
-  
-
     // Centering the view above Solani Basin
 viewer.camera.flyTo({
     destination: Cesium.Cartesian3.fromDegrees( 77.92, 30.11, 100000),
